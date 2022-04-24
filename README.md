@@ -22,9 +22,9 @@
 - 체스 게임 로딩
   - GET "/chessgames/{id}"
 - 피스 이동
-  - POST "/chessgames/{id}/move"
+  - PATCH "/chessgames/{id}/move"
 - 피스 프로모션
-  - POST "/chessgames/{id}/promotion"
+  - PATCH "/chessgames/{id}/promotion"
 - 체스 게임 스코어 계산
   - GET "/chessgames/{id}/score"
 - 체스 게임 종료 여부
